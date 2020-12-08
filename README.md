@@ -62,13 +62,13 @@ $ cd vehiclemanagementsystem
 $ mvn clean install
 To build docker image execute below command
 $ docker build -t vehicle/vehiclemanagementsystem .
-To list docker images and validate if image created successfully
+To list docker images and validate image created successfully
 $ docker images
 To create docker container execute below command 
 $ docker run -p 8080:8080 --name=vehiclemanagementsystem -d vehicle/vehiclemanagementsystem
-To list all running container and validate if container for vehiclemanagementsystem created successfully or not
+To list all running container and validate container for vehiclemanagementsystem created successfully 
 $ docker ps -a
-If docker container created successfully to See logs execute below command
+Once docker container created successfully to See logs execute below command
 $ docker logs vehiclemanagementsystem
 To go inside container
 $ docker exec -it vehiclemanagementsystem /bin/bash
