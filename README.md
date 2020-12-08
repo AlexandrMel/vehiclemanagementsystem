@@ -54,7 +54,7 @@ To shutdown the jar, follow the below mentioned steps on a Windows machine.
 *	In command prompt execute the **jcmd** command to print a list of all running Java processes
 *	**Taskkill /PID PROCESS_ID_OF_RUNNING_APP /F** execute this command by replacing the **PROCESS_ID_OF_RUNNING_APP** with the actual process id of the running jar found out from executing the previous command
 
-### Running the application with Docker 
+### Running the application with Docker (Use to deploy on PROD)
 
 ```shell
 $ git clone https://github.com/anilmehrotra/vehiclemanagementsystem.git
